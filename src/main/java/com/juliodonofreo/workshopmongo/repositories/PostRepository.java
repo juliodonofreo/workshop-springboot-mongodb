@@ -2,8 +2,7 @@ package com.juliodonofreo.workshopmongo.repositories;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import com.juliodonofreo.workshopmongo.domain.User;
+import com.juliodonofreo.workshopmongo.domain.Post;
 
-public interface UserRepository extends MongoRepository<User, String>{
-
+public interface PostRepository extends MongoRepository<Post, String>{
 }
